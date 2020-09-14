@@ -2,17 +2,17 @@ body {
     text-align: center;
     line-height: 30px;
 }
-
-button {
-    font: 100 20px "Helvetica Neue", Helvetica, Arial, Sans-serif;
-    padding: 10px;
-    margin-bottom: 5px;
-    width: 60px;
-    height: 80px;
-}
+/*
+calculator shape and display
+*/
 #calculator {
-    background-color: coral;
+    margin: auto;
+    background-color: #d1b871;
     width: 280px;
+    padding: 10px;
+    border: 3px solid grey;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.3);
 }
 .display {
     background-color: cadetblue;
@@ -24,5 +24,32 @@ button {
     margin: 5px auto;
     padding: 10px;
     text-align: end;
+    box-shadow: inset 1px 2px 2px rgba(0,0,0,0.3);
     
+}
+/* 
+button styles
+*/
+button {
+    font: 100 20px "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 60px;
+    height: 80px;
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.3);
+}
+.number {
+    background-color: #f2b818;
+    
+}
+.operator,
+.equalizer,
+.clear,
+.backspace {
+    background-color: #b59231;
+
+}
+
+.backspace {
+    width: auto;
 }
