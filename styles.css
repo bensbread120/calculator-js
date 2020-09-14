@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    line-height: 30px;
+}
+
+button {
+    font: 100 20px "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 60px;
+    height: 80px;
+}
+#calculator {
+    background-color: coral;
+    width: 280px;
+}
+.display {
+    background-color: cadetblue;
+    border: 3px solid grey;
+    border-radius: 10px;
+    font: 100 20px "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    height: 80px;
+    width: 235px;
+    margin: 5px auto;
+    padding: 10px;
+    text-align: end;
+    
+}
